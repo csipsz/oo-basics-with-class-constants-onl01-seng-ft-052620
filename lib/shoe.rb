@@ -15,7 +15,7 @@ class Shoe
   end
   
   def clean 
-    BRANDS.clear 
+    BRANDS.uniq! 
   end 
 
 end
